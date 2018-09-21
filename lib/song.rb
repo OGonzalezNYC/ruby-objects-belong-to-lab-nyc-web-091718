@@ -1,7 +1,7 @@
 class Song
   attr_accessor :artist, :title
 
-  def create_new_artist(artist, title)
+  def create_new_song(artist, title)
     @title = self.new
     self.artist = artist
     self.title = title
